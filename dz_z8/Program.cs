@@ -4,7 +4,7 @@ int numberA = int.Parse(numberAString!);
 
 int count = 1;
 
-while(count < numberA)
+while(count <= numberA)
 {
     if (count%2==0)
     {
